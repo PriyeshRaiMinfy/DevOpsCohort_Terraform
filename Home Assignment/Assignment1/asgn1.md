@@ -32,14 +32,14 @@
   ![plan 2](./ass1images/Screenshot%202025-06-14%20135345.png)  
   ![plan 3](./ass1images/Screenshot%202025-06-14%20135403.png)
 
-- ✅ Verified the website URL from output  
+- Verified the website URL from output  
   Website URL:  
   ```
   priyeshrai-staticwebsite.s3-website.ap-south-1.amazonaws.com
   ```
   ![website output](./ass1images/Screenshot%202025-06-14%20135118.png)
 
-- ✅ S3 bucket created to host static website  
+- S3 bucket created to host static website  
   ![s3 bucket](./ass1images/Screenshot%202025-06-14%20135635.png)
 
 ---
@@ -86,7 +86,3 @@ terraform {
   priyeshrai-staticwebsite.s3-website.ap-south-1.amazonaws.com
   ```
   ![website after backend](./ass1images/Screenshot%202025-06-14%20142637.png)
-
----
-
-✅ **Assignment completed successfully**
