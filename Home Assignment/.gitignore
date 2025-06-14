@@ -1,14 +1,15 @@
-# Local Terraform files
-**/.terraform/*
+.terraform/
 *.tfstate
 *.tfstate.*
-crash.log
+terraform.tfvars
 *.tfvars
+*.tfvars.json
 .terraform.lock.hcl
+crash.log
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
-
-# In-house modules
 .terraform/modules/
+.DS_Store
+Thumbs.db
