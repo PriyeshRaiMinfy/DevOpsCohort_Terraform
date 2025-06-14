@@ -1,8 +1,17 @@
+# Ignore Terraform working directories
 **/.terraform/*
+
+# Ignore Terraform state files
 *.tfstate
 *.tfstate.*
+
+# Ignore crash logs
 crash.log
+
+# Ignore terraform variable files (can contain secrets)
 *.tfvars
+
+# Ignore override files (used to override modules or config locally)
 override.tf
 override.tf.json
 *_override.tf
