@@ -18,7 +18,8 @@
   terraform init  
   terraform validate
   ```
-  ![init and validate](./ass1images/screenshot_2025_06_14_135243.png)
+  <!-- ![init and validate](./ass1images/screenshot_2025_06_14_135243.png) -->
+  ![init and validate](./ass1images/Screenshot%202025-06-14%20135243.png)
 
 ---
 
@@ -27,28 +28,28 @@
   terraform plan  
   terraform apply
   ```
-  ![plan 1](./ass1images/screenshot_2025_06_14_135306.png)  
-  ![plan 2](./ass1images/screenshot_2025_06_14_135345.png)  
-  ![plan 3](./ass1images/screenshot_2025_06_14_135403.png)
+  ![plan 1](./ass1images/Screenshot%202025-06-14%20135306.png)  
+  ![plan 2](./ass1images/Screenshot%202025-06-14%20135345.png)  
+  ![plan 3](./ass1images/Screenshot%202025-06-14%20135403.png)
 
 - ✅ Verified the website URL from output  
   Website URL:  
   ```
   priyeshrai-staticwebsite.s3-website.ap-south-1.amazonaws.com
   ```
-  ![website output](./ass1images/screenshot_2025_06_14_135118.png)
+  ![website output](./ass1images/Screenshot%202025-06-14%20135118.png)
 
 - ✅ S3 bucket created to host static website  
-  ![s3 bucket](./ass1images/screenshot_2025_06_14_135635.png)
+  ![s3 bucket](./ass1images/Screenshot%202025-06-14%20135635.png)
 
 ---
 
 ### 2) Manually created an S3 bucket: **REMOTE BACKEND**
 
 - This bucket is used to store the Terraform state file  
-  ![backend bucket 1](./ass1images/screenshot_2025_06_14_142745.png)  
-  ![backend bucket 2](./ass1images/screenshot_2025_06_14_142709.png)  
-  ![backend bucket 3](./ass1images/screenshot_2025_06_14_142720.png)
+  ![backend bucket 1](./ass1images/Screenshot%202025-06-14%20142745.png)  
+  ![backend bucket 2](./ass1images/Screenshot%202025-06-14%20142709.png)  
+  ![backend bucket 3](./ass1images/Screenshot%202025-06-14%20142720.png)
 
 ---
 
@@ -71,10 +72,10 @@ terraform {
 - Re-ran `terraform init`
 
 - Chose "yes" to copy local state to S3  
-  ![re-init](./ass1images/screenshot_2025_06_14_142915.png)
+  ![re-init](./ass1images/Screenshot%202025-06-14%20142915.png)
 
 - Verified terraform plan and apply after backend change  
-  ![final apply](./ass1images/screenshot_2025_06_14_142935.png)
+  ![final apply](./ass1images/Screenshot%202025-06-14%20142935.png)
 
 ---
 
@@ -84,7 +85,7 @@ terraform {
   ```
   priyeshrai-staticwebsite.s3-website.ap-south-1.amazonaws.com
   ```
-  ![website after backend](./ass1images/screenshot_2025_06_14_142637.png)
+  ![website after backend](./ass1images/Screenshot%202025-06-14%20142637.png)
 
 ---
 
