@@ -4,9 +4,7 @@
 ### 1) Initialized a `main.tf` file with:
 
 - Terraform block – AWS provider
-- Provider block – region and SSO profile
-- S3 bucket resource for static website
-- Public access block
+- Provider block 
 - S3 object resource to upload `index.html`
 
 - Created an `index.html` file with simple HTML content
